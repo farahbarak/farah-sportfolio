@@ -623,6 +623,11 @@ transition: 0.3s ease;
    }
 }
 
+ @media screen and (max-width: 600px) {
+ .services p {
+    display:inline-block;
+  }
+
 /* projects page */
 
 
