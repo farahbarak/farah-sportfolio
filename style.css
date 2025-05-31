@@ -561,10 +561,16 @@ transition: 0.3s ease;
     padding: 2rem 3%;
    }
 }
-@media (max-width:895px) {
-    #menu-icon{
-        display:block;
-    }
+@media screen and (max-width: 600px) {
+ .services  {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .services {
+    font-size: 20px;
+  }
+}
     .navbar{
         position: absolute;
         top:100%;
